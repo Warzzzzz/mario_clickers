@@ -1,23 +1,15 @@
-body {
+body{
     background-image: url(../img/fond_1.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    }
+    background-repeat: no-repeat;   
+    font-family: 'mario', sans-serif;
+}
 
 header{
-        text-align: center;
-    }
-
-main{
-    text-align: left;
-}
-
-h4{
     text-align: center;
+
 }
- button{
-    border: transparent;
-    background-color: transparent; 
-    font-size: 1em; 
-    box-shadow: transparent;
- }
+@font-face{
+    font-family: "mario";
+    src: url("../style/SuperMario256.ttf") format("opentype");
+}
