@@ -1,0 +1,23 @@
+body {
+    background-image: url(../img/fond_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+header{
+        text-align: center;
+    }
+
+main{
+    text-align: left;
+}
+
+h4{
+    text-align: center;
+}
+ button{
+    border: transparent;
+    background-color: transparent; 
+    font-size: 1em; 
+    box-shadow: transparent;
+ }
