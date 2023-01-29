@@ -8,34 +8,44 @@
     <title>Mario Clickers</title>
     <link rel="icon" href="img/icon_1.png">
     <link rel="stylesheet" href="style/style.css">
-    
+    <script type="java" src="script.js"></script>
 </head>
 
 <body>
- 
-    <header>
+    
+      <header>
         <h1>
         <img src="img/title.png" alt="title">
         </h1>
-
-
-    </header>
-
-    <main>
         
-            <P><button onclick="bonus()"><img src="img/bonus_1.png" alt="bonus_1"></button></P>
+        <p id="pieces">Nombre de pieces obtenues : 0<img src="img/piece 1.png" alt="piece1" style="height: 25px"></p>
+        <p id="etoies">Pieces etoiles disponibles : 0<img src="img/piece_2.png" alt="etoile1" style="height: 25px"></p>
+        <p id="clicks">Nombre de clics : 0<img src="img/cursor_1.png" alt="click_1" style="height: 25px"></p>
+        <p id="clicksTT">Nombre de clics au total : 0<img src="img/cursor_1.png" alt="click_2" style="height: 25px"></p>
+  
+        <div class="bonus">
+            <h2>Les bonus :</h2>
+            <p>3 etoiles </p>
+            <button onclick="bonus()"><img src="img/bonus_1.png" alt="bonus_1" style="height: 65px"></button></br>
+            <p>6 etoiles </p>
+            <button onclick="bonus()"><img src="img/bonus_2.png" alt="bonus_2" style="height: 65px"></button></br>
+            <p>15 etoiles </p>
+            <button onclick="bonus()"><img src="img/bonus_3.png" alt="bonus_3" style="height: 65px"></button></br>
+            <p>30 etoiles </p>
+            <button onclick="bonus()"><img src="img/bonus_4.png" alt="bonus_4" style="height: 65px"></button></br>
+            <p>60 etoiles </p>
+            <button onclick="bonus()"><img src="img/bonus_5.png" alt="bonus_5" style="height: 65px"></button></br>
+            <p>120 etoiles </p>
+            <button onclick="bonus()"><img src="img/bonus_6.png" alt="bonus_6" style="height: 65px"></button></br>
+            <p>250 etoiles </p>
+            <button onclick="bonus()"><img src="img/bonus_7.png" alt="bonus_7" style="height: 65px"></button></br>
 
-            <P><button onclick="bonus()"><img src="styles/herobrine.png" alt="bonus_2"></button></P>
+    </div>
+         </header>
+    <main>
+    
+    <input id="main-image" onclick="clics()" type="image" src="img/mario_1.png" alt="mario_1">
 
-            <P><button onclick="bonus()"><img src="styles/herobrine.png" alt="bonus_3"></button></P>
-
-            <P><button onclick="bonus()"><img src="styles/herobrine.png" alt="bonus_4"></button></P>
-
-            <P><button onclick="bonus()"><img src="styles/herobrine.png" alt="bonus_5"></button></P>
-
-            <P><button onclick="bonus()"><img src="styles/herobrine.png" alt="bonus_6"></button></P>
-
-            <P><button onclick="bonus()"><img src="styles/herobrine.png" alt="bonus_7"></button></P>
             
     </main>
     <footer>
