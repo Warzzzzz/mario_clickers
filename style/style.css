@@ -43,3 +43,12 @@ button {
     margin-left: 38%;
 
 }
+footer {
+    text-align: center;
+    position: fixed;
+    height: 35px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
