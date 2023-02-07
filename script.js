@@ -3,10 +3,9 @@ let etoiles = 0;
 let clicks = 0;
 let clicksTT = 0;
 let bonusClick = 0;
-let actB1 = 0;
 
 let audio1 = new Audio('piecemus1.mp3');
-let images = ['img/mario_1.png','img/mario_2.png'];
+let image1 = ['img/mario_2.png'];
 let img = document.querySelector("main");
 
 
@@ -42,13 +41,10 @@ function bonus1() {
     if (etoiles >=3) { 
         bonusClick +=1;
         etoiles -=3;
-        actB1 +=1;
         document.getElementById('etoiles').innerHTML = "Nombre d'etoiles obtenues: " + etoiles;
+        document.getElementById('main-image').src = "img/mario_2.png";
     } else {
         alert("Tu n'as pas assez d'etoiles !");
-    }
-    if(actB1!=0){
-        document.getElementById("main-image").src = images[counter%2];
     }
 }
 
