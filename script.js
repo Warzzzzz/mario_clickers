@@ -4,6 +4,8 @@ let clicks = 0;
 let clicksTT = 0;
 let bonusClick = 0;
 
+let audio1 = new Audio('piecemus1.mp3');
+
 function clics() {
     clicks +=1 + bonusClick;
     clicksTT +=1 + bonusClick;
@@ -17,6 +19,7 @@ function clics() {
     }
 
     if (pieces >=10) {
+        audio1.play();
         etoiles +=1;
         pieces -=10
 
