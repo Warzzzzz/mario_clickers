@@ -53,6 +53,7 @@ function bonus2() {
         bonusClick +=1;
         etoiles -=10;
         document.getElementById('etoiles').innerHTML = "Nombre d'etoiles obtenues: " + etoiles;
+        document.getElementById('main-image').src = "img/mario_3.png";
     } else {
         alert("Tu n'as pas assez d'etoiles !");
     }
@@ -63,6 +64,7 @@ function bonus3() {
         bonusClick +=1;
         etoiles -=25;
         document.getElementById('etoiles').innerHTML = "Nombre d'etoiles obtenues: " + etoiles;
+        document.getElementById('main-image').src = "img/mario_4.png";
     } else {
         alert("Tu n'as pas assez d'etoiles !");
     }
@@ -72,6 +74,7 @@ function bonus4() {
         bonusClick +=1;
         etoiles -=50;
         document.getElementById('etoiles').innerHTML = "Nombre d'etoiles obtenues: " + etoiles;
+        document.getElementById('main-image').src = "img/mario_5.png";
     } else {
         alert("Tu n'as pas assez d'etoiles !");
     }
@@ -81,6 +84,7 @@ function bonus5() {
         bonusClick +=1;
         etoiles -=100;
         document.getElementById('etoiles').innerHTML = "Nombre d'etoiles obtenues: " + etoiles;
+        document.getElementById('main-image').src = "img/mario_6.png";
     } else {
         alert("Tu n'as pas assez d'etoiles !");
     }
@@ -90,6 +94,7 @@ function bonus6() {
         bonusClick +=1;
         etoiles -=175;
         document.getElementById('etoiles').innerHTML = "Nombre d'etoiles obtenues: " + etoiles;
+        document.getElementById('main-image').src = "img/mario_7.png";
     } else {
         alert("Tu n'as pas assez d'etoiles !");
     }
@@ -99,6 +104,7 @@ function bonus7() {
         bonusClick +=1;
         etoiles -=250;
         document.getElementById('etoiles').innerHTML = "Nombre d'etoiles obtenues: " + etoiles;
+        document.getElementById('main-image').src = "img/mario_8.png";
     } else {
         alert("Tu n'as pas assez d'etoiles !");
     }
