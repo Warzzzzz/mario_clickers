@@ -8,18 +8,21 @@
     <title>Mario Clickers</title>
     <link rel="icon" href="img/icon_1.png">
     <link rel="stylesheet" href="style/style.css">
-    <script type="text/javascript" src="script.js"></script>
 </head>
-
-    <body onkeydown="if(event.keyCode==13) return false;">
+<body>
+    <!-- <body onkeydown="if(event.keyCode==13) return false;"> -->
+   
       <header>
         <h1>
         <img src="img/title.png" alt="title">
         </h1>
-        
+        <p id="temps">Time : 0</p>
         <p id="pieces">Nombre de pieces obtenues : 0</p>
         <p id="etoiles"> Nombre d'etoiles disponibles : 0</p>
         <p id="clicks">Nombre de clics : 0</p>
+        <p id="clicksTT">Nombre de totaux : 0</p>
+
+        
   
         <div class="bonus">
             <h2>Les bonus :</h2>
@@ -38,17 +41,20 @@
             <p>250 etoiles </p>
             <button onclick="bonus7()"><img src="img/bonus_7.png" alt="bonus_7" style="height: 65px"></button></br>
 
+
     </div>
          </header>
     <main>
     
     <input id="main-image" onclick="clics()" type="image" src="img/mario_1.png" alt="mario_1">
-
+    
+    <img id="bowzer" src="img/bowser_1.png" alt="bowser">
             
     </main>
     <footer>
     <p> Site cree par Nicolas LEGAL et Alexandre DOREMUS | UB1-SNIR | 2022-2023</p>
     </footer>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>

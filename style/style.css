@@ -31,11 +31,7 @@ button {
     cursor: url("../img/cursor.cur"), pointer;
 }
 
-/* #main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-} */
+
 
 #main-image{
     margin-top: 10%;
@@ -51,4 +47,18 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+}
+
+#temps{
+    margin-left: 90%;
+}
+
+
+#bowzer{
+    position: absolute;
+    margin-top: 10px;
+    height: 250px;
+    margin-left: 10%;
+   
+
 }
