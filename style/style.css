@@ -56,9 +56,9 @@ footer {
 
 #bowzer{
     position: absolute;
-    margin-top: 10px;
     height: 250px;
-    margin-left: 10%;
-   
-
+    top: 30%;
+    right: 10%;
 }
+
+
