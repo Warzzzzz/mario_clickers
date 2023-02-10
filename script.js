@@ -47,14 +47,14 @@ function clics() {
     document.getElementById('clicksTT').innerHTML = "Nombre de clics totaux : " + clicksTT 
 
     if (clicksPI >= 25) {
-            pieces +=9;
+            pieces +=1;
             clicksPI -=25;
             document.getElementById('pieces').innerHTML = "Nombre de piece obtenues: " + pieces;
     }
 
     if (pieces >=10) {
         audio1.play();
-        etoiles +=500;
+        etoiles +=1;
         pieces -=10
 
          
